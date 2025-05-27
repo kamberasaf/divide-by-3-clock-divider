@@ -1,2 +1,112 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Vivado Project Files
+*.xpr
+*.xpr.user
+*.tcl~
+*.jou
+*.log
+*.debug
+*.rpt
+*.xml
+*.html
+
+# Vivado Directories
+.Xil/
+*_proj/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*_sim/
+work/
+xsim.dir/
+
+# Waveform Files
+*.wdb
+*.wcfg
+*.vcd
+*.saif
+
+# Synthesis Files
+*.ngc
+*.ngr
+*.xst
+*.srp
+*.lso
+*.bit
+*.bin
+*.dcp
+
+# Implementation Files
+*.unroutes
+*.par
+*.pad
+*.ncd
+*.pcf
+*.bgn
+*.bld
+*.ptwx
+*.twr
+*.twx
+
+# Simulation Files
+*.vhdpidx
+webtalk*
+xsim*
+compile_simlib/
+modelsim.ini
+transcript
+vsim.wlf
+work/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp
+*.tmp
+
+# Log Files
+*.out
+vivado*.jou
+vivado*.log
+hs_err_pid*.log
+
+# IP Core Files
+component.xml
+*.xci
+*.xcix
+
+# Checkpoint Files
+*.dcp
+
+# Temporary Files
+*.autosave
+NA/
+
+# Documentation Build Files
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.pdf
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-*
+
+# Python Cache (if using Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup Files
+*.backup
+*.bak
