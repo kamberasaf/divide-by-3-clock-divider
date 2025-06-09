@@ -142,28 +142,6 @@ This creates a **180° phase shift** between the two counters, ensuring that whe
 3. **Fixed Ratio**: Hardcoded for divide-by-3 operation
 4. **Reset Dependency**: Requires proper reset sequencing
 
-## Alternative Architectures Considered
-
-### 1. Single Counter with Logic
-```
-Counter: 0→1→2→0→1→2→...
-Output Logic: (count == 1) OR (count == 2)
-Result: 66.7% duty cycle ❌
-```
-
-### 2. Ripple Counter Approach
-```
-3-bit counter with decode logic
-Result: Higher resource usage, timing issues ❌
-```
-
-### 3. PLL-Based Solution
-```
-Use PLL to generate 3× clock, then divide
-Result: Higher complexity, external components ❌
-```
-
-**Conclusion**: The dual counter approach provides the optimal balance of simplicity, resource efficiency, and precise timing control.
 
 ## Verification Strategy
 
